@@ -1,0 +1,125 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    color: #000;
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+.homepage-img{
+  width: 100%;
+}
+
+.all-images{
+  width: 550px;
+  height: 350px;
+}
+
+.right-align{
+    position: relative;
+    left: 65%;
+}
+
+.logo-anchor{
+  display: inline;
+}
+
+.body-content{
+    width: 70%;
+    padding: 5% 0 5% 10%;
+}
+
+.body-content-1{
+    margin-top: 7%;
+}
+
+.body-img{
+    margin-top: 7%;
+}
+
+.paragraph-text-edit{
+    line-height: 250%;
+}
+
+.input-box{
+    width: 10%;
+    height: 4%;
+}
+
+/* kg to lbs toggle switch */
+
+.toggle {
+    --width: 80px;
+    --height: calc(var(--width) / 3);
+
+    position: relative;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
+  }
+
+  .toggle input {
+    display: none;
+  }
+
+  .toggle .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--height);
+    background-color: #ccc;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .slider::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--height));
+    height: calc(var(--height));
+    border-radius: calc(var(--height) / 2);
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle input:checked+.slider {
+    background-color: #2196F3;
+  }
+
+  .toggle input:checked+.slider::before {
+    transform: translateX(calc(var(--width) - var(--height)));
+  }
+
+  .contact-us {
+    color: #000;
+    text-align: center;
+    padding: 7% 15% 7%;
+  }
+  
+  .footer-icons {
+    color: #000;
+    margin: 7% 5% 7%;
+  }
+  
+  .footer-icons:hover {
+    color: #54B435;
+  }
+  
+
+
+
+
