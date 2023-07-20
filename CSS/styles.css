@@ -13,12 +13,6 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 }
 
-@media only screen and (max-width: 600px) {
-  .all-images {
-    width:100%;
-  }
-}
-
 .homepage-img{
   width: 100%;
 }
